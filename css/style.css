@@ -1,0 +1,181 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #000000;
+  color: #ffffff;
+  padding: 25px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------ BANNER ------------------ */
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f5f5f5;
+}
+
+.banner h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.banner p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.produtos-page {
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.produtos-page h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+
+.search-bar {
+  width: 60%;
+  padding: 12px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #000;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1.5px solid #000;
+  padding: 20px;
+  width: 260px;
+  border-radius: 2px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 0; /* remove espaço extra */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: grayscale(100%);
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+
+.contato-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.contato-container h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contato-container p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 35px;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contato-form label {
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 16px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 18px;
+  background: #fff;
+  width: 100%;
+}
+
+.contato-form textarea {
+  resize: vertical;
+}
+
+.contato-form button {
+  margin-top: 15px;
+  padding: 18px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.contato-form button:hover {
+  background: #333;
+}
