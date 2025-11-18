@@ -28,6 +28,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.produtos-destaque {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
 /* ------------------ BANNER ------------------ */
 .banner {
   text-align: center;
