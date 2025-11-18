@@ -33,7 +33,6 @@ nav a:hover {
   text-align: center;
 }
 
-/* ---------------- HERO SIDE ---------------- */
 .hero-side {
   display: flex;
   align-items: center;
@@ -185,8 +184,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-
-
 .search-bar {
   width: 60%;
   padding: 12px;
@@ -209,17 +206,14 @@ nav a:hover {
   transition: transform 0.2s ease-in-out;
 }
 
-
 .grid {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
   margin-top: 20px;
-  margin-bottom: 0; /* remove espaço extra */
+  margin-bottom: 0;
 }
-
-
 
 .card:hover {
   transform: scale(1.05);
