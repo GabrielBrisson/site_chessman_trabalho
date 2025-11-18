@@ -82,6 +82,8 @@ nav a:hover {
   padding: 20px;
   width: 260px;
   border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
   text-align: center;
   transition: transform 0.2s ease-in-out;
 }
@@ -95,6 +97,8 @@ nav a:hover {
   margin-top: 20px;
   margin-bottom: 0; /* remove espaço extra */
 }
+
+
 
 .card:hover {
   transform: scale(1.05);
@@ -185,3 +189,72 @@ footer {
 .contato-form button:hover {
   background: #333;
 }
+
+.produto-detalhe {
+  max-width: 900px;
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.produto-detalhe img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #000;
+  filter: grayscale(100%);
+}
+
+.produto-info {
+  flex: 1;
+}
+
+.produto-info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.produto-info p {
+  font-size: 18px;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.produto-info #produto-preco {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.produto-info button {
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.produto-info button:hover {
+  background: #333;
+}
+
+@media (max-width: 768px) {
+  .produto-detalhe {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .produto-detalhe img {
+    margin: 0 auto;
+  }
+}
+
+
